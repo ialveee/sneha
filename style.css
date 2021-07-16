@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(6, 34, 59, 0.979);
+    /* background: white; */
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    /* color: rgb(26, 86, 110); */
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    /* color: rgb(26, 86, 110); */
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+
+/* home section styleing */
+
+.home{
+    display: flex;
+    background: url("sneha.JPG") no-repeat center;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    /* background-color:rgb(26, 86, 110); ; */
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text-1{
+    font-size: 27px;
+    margin-top: 500px;
+}
+
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+
+}
+
+.home .home-content .text-3{
+    font-size: 40px;
+    margin-right: -3px;
+
+}
